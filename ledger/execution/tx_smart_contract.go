@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/result"
-	"github.com/thetatoken/theta/core"
-	st "github.com/thetatoken/theta/ledger/state"
-	"github.com/thetatoken/theta/ledger/types"
-	"github.com/thetatoken/theta/ledger/vm"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/result"
+	"github.com/thetatoken/theta-protocol-ledger/core"
+	st "github.com/thetatoken/theta-protocol-ledger/ledger/state"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/vm"
 )
 
 var _ TxExecutor = (*SmartContractTxExecutor)(nil)

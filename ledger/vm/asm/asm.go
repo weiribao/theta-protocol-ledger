@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/thetatoken/theta/ledger/vm"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/vm"
 )
 
 // Iterator for disassembled EVM instructions

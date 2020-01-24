@@ -4,7 +4,7 @@ import (
 	"math/big"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/core"
+	"github.com/thetatoken/theta-protocol-ledger/core"
 )
 
 // GetFinalizedBlocks drains the FinalizedBlocks channel and return a slice of block hashes.

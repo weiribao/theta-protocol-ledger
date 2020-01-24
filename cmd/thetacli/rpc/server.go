@@ -13,11 +13,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/util"
-	"github.com/thetatoken/theta/rpc/lib/rpc-codec/jsonrpc2"
-	wl "github.com/thetatoken/theta/wallet"
-	wt "github.com/thetatoken/theta/wallet/types"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/util"
+	"github.com/thetatoken/theta-protocol-ledger/rpc/lib/rpc-codec/jsonrpc2"
+	wl "github.com/thetatoken/theta-protocol-ledger/wallet"
+	wt "github.com/thetatoken/theta-protocol-ledger/wallet/types"
 	"golang.org/x/net/netutil"
 	"golang.org/x/net/websocket"
 )

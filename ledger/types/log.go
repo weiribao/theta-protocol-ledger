@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/hexutil"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/hexutil"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

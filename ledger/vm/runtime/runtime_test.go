@@ -24,9 +24,9 @@ package runtime
 // 	"github.com/ethereum/go-ethereum/accounts/abi"
 // 	"github.com/ethereum/go-ethereum/core/state"
 // 	"github.com/ethereum/go-ethereum/ethdb"
-// 	"github.com/thetatoken/theta/ledger/vm/params"
-// 	"github.com/thetatoken/theta/common"
-// 	"github.com/thetatoken/theta/ledger/vm"
+// 	"github.com/thetatoken/theta-protocol-ledger/ledger/vm/params"
+// 	"github.com/thetatoken/theta-protocol-ledger/common"
+// 	"github.com/thetatoken/theta-protocol-ledger/ledger/vm"
 // )
 
 // func TestDefaults(t *testing.T) {

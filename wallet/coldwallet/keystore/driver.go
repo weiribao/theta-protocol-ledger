@@ -3,9 +3,9 @@ package keystore
 import (
 	"io"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/wallet/types"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/wallet/types"
 )
 
 // Driver abstracts the functionality of the hardware wallet

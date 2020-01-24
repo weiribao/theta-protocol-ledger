@@ -8,12 +8,12 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/thetatoken/theta/core"
+	"github.com/thetatoken/theta-protocol-ledger/core"
 
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/store/database/backend"
-	"github.com/thetatoken/theta/store/kvstore"
+	"github.com/thetatoken/theta-protocol-ledger/blockchain"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/store/database/backend"
+	"github.com/thetatoken/theta-protocol-ledger/store/kvstore"
 )
 
 func handleError(err error) {

@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"sync"
 
-	mm "github.com/thetatoken/theta/common/math"
-	nu "github.com/thetatoken/theta/p2p/netutil"
+	mm "github.com/thetatoken/theta-protocol-ledger/common/math"
+	nu "github.com/thetatoken/theta-protocol-ledger/p2p/netutil"
 )
 
 const (

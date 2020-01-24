@@ -1,1 +1,1 @@
-module github.com/thetatoken/theta/rpc/lib/rpc-codec/jsonrpc2
+module github.com/thetatoken/theta-protocol-ledger/rpc/lib/rpc-codec/jsonrpc2

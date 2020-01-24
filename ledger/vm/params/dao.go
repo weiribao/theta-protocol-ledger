@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/thetatoken/theta/common"
+	"github.com/thetatoken/theta-protocol-ledger/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

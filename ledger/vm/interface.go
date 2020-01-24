@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/ledger/types"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
 )
 
 // StateDB is an EVM database for full state querying.

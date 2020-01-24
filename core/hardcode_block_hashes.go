@@ -1,6 +1,6 @@
 package core
 
-import "github.com/thetatoken/theta/common"
+import "github.com/thetatoken/theta-protocol-ledger/common"
 
 type HardcodeBlockHash struct {
 	Height    uint64

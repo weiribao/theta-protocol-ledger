@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/p2p"
-	p2ptypes "github.com/thetatoken/theta/p2p/types"
-	"github.com/thetatoken/theta/p2pl"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/p2p"
+	p2ptypes "github.com/thetatoken/theta-protocol-ledger/p2p/types"
+	"github.com/thetatoken/theta-protocol-ledger/p2pl"
 )
 
 //

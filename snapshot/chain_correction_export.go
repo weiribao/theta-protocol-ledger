@@ -8,11 +8,11 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/ledger/types"
+	"github.com/thetatoken/theta-protocol-ledger/blockchain"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/core"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
 )
 
 func ExcludeTxs(txs []common.Bytes, exclusionTxMap map[string]bool, chain *blockchain.Chain) (results []common.Bytes) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/thetatoken/theta/version"
+	"github.com/thetatoken/theta-protocol-ledger/version"
 )
 
 // versionCmd represents the version command

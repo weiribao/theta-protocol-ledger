@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/thetatoken/theta/common/hexutil"
+	"github.com/thetatoken/theta-protocol-ledger/common/hexutil"
 )
 
 type MyType [5]byte

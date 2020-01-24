@@ -6,7 +6,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/thetatoken/theta/common/util"
+	"github.com/thetatoken/theta-protocol-ledger/common/util"
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"

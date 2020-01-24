@@ -9,8 +9,8 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	cmn "github.com/thetatoken/theta/p2pl/common"
-	"github.com/thetatoken/theta/p2pl/transport/buffer/flowrate"
+	cmn "github.com/thetatoken/theta-protocol-ledger/p2pl/common"
+	"github.com/thetatoken/theta-protocol-ledger/p2pl/transport/buffer/flowrate"
 )
 
 //

@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
 )
 
 var EmptyCodeHash = common.BytesToHash(crypto.Keccak256(nil))

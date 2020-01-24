@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/spf13/cobra"
-	"github.com/thetatoken/theta/cmd/thetacli/rpc"
+	"github.com/thetatoken/theta-protocol-ledger/cmd/thetacli/rpc"
 )
 
 // startDaemonCmd runs the thetacli daemon

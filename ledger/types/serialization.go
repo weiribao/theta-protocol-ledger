@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
 )
 
 const maxTxSize = 1024 * 1024

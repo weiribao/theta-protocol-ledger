@@ -8,11 +8,11 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/thetatoken/theta/cmd/thetacli/cmd/utils"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/ledger/types"
-	"github.com/thetatoken/theta/rpc"
-	wtypes "github.com/thetatoken/theta/wallet/types"
+	"github.com/thetatoken/theta-protocol-ledger/cmd/thetacli/cmd/utils"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
+	"github.com/thetatoken/theta-protocol-ledger/rpc"
+	wtypes "github.com/thetatoken/theta-protocol-ledger/wallet/types"
 
 	"github.com/ybbus/jsonrpc"
 	rpcc "github.com/ybbus/jsonrpc"

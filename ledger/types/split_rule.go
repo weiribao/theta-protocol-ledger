@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/thetatoken/theta/common"
+	"github.com/thetatoken/theta-protocol-ledger/common"
 )
 
 // ** Split Rule: Specifies the payment split agreement among participating addresses **

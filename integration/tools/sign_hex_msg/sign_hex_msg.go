@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/thetatoken/theta/cmd/thetacli/cmd/utils"
-	"github.com/thetatoken/theta/common"
-	ks "github.com/thetatoken/theta/wallet/softwallet/keystore"
+	"github.com/thetatoken/theta-protocol-ledger/cmd/thetacli/cmd/utils"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	ks "github.com/thetatoken/theta-protocol-ledger/wallet/softwallet/keystore"
 )
 
 //

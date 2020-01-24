@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thetatoken/theta/common"
+	"github.com/thetatoken/theta-protocol-ledger/common"
 )
 
 const TREZORD_HOST = "http://127.0.0.1:21325"

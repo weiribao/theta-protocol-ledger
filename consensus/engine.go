@@ -9,19 +9,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thetatoken/theta/crypto/bls"
+	"github.com/thetatoken/theta-protocol-ledger/crypto/bls"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/result"
-	"github.com/thetatoken/theta/common/util"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/dispatcher"
-	"github.com/thetatoken/theta/rlp"
-	"github.com/thetatoken/theta/store"
+	"github.com/thetatoken/theta-protocol-ledger/blockchain"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/result"
+	"github.com/thetatoken/theta-protocol-ledger/common/util"
+	"github.com/thetatoken/theta-protocol-ledger/core"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/dispatcher"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/store"
 )
 
 var logger = log.WithFields(log.Fields{"prefix": "consensus"})

@@ -9,11 +9,11 @@ import (
 	"github.com/spf13/viper"
 	rpcc "github.com/ybbus/jsonrpc"
 
-	"github.com/thetatoken/theta/cmd/thetacli/cmd/utils"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/ledger/types"
-	trpc "github.com/thetatoken/theta/rpc"
+	"github.com/thetatoken/theta-protocol-ledger/cmd/thetacli/cmd/utils"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/core"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
+	trpc "github.com/thetatoken/theta-protocol-ledger/rpc"
 )
 
 // ------------------------------- SendTx -----------------------------------

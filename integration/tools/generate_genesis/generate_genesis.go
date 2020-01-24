@@ -13,13 +13,13 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/ledger/state"
-	"github.com/thetatoken/theta/ledger/types"
-	"github.com/thetatoken/theta/rlp"
-	"github.com/thetatoken/theta/store/database/backend"
-	"github.com/thetatoken/theta/store/trie"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/core"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/state"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/store/database/backend"
+	"github.com/thetatoken/theta-protocol-ledger/store/trie"
 )
 
 var logger *log.Entry = log.WithFields(log.Fields{"prefix": "genesis"})

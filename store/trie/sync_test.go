@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/thetatoken/theta/common"
-	dbbackend "github.com/thetatoken/theta/store/database/backend"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	dbbackend "github.com/thetatoken/theta-protocol-ledger/store/database/backend"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

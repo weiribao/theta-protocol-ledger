@@ -23,9 +23,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	dbbackend "github.com/thetatoken/theta/store/database/backend"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	dbbackend "github.com/thetatoken/theta-protocol-ledger/store/database/backend"
 )
 
 func newEmptySecure() *SecureTrie {

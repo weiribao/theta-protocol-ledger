@@ -9,11 +9,11 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/spf13/cobra"
-	"github.com/thetatoken/theta/cmd/thetacli/cmd/utils"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/wallet"
-	"github.com/thetatoken/theta/wallet/types"
-	wtypes "github.com/thetatoken/theta/wallet/types"
+	"github.com/thetatoken/theta-protocol-ledger/cmd/thetacli/cmd/utils"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/wallet"
+	"github.com/thetatoken/theta-protocol-ledger/wallet/types"
+	wtypes "github.com/thetatoken/theta-protocol-ledger/wallet/types"
 )
 
 const HARDENED_FLAG = 1 << 31

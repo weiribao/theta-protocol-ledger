@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/thetatoken/theta/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

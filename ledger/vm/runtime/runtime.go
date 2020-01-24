@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/ledger/state"
-	"github.com/thetatoken/theta/ledger/vm"
-	"github.com/thetatoken/theta/ledger/vm/params"
-	"github.com/thetatoken/theta/store/database/backend"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/state"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/vm"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/vm/params"
+	"github.com/thetatoken/theta-protocol-ledger/store/database/backend"
 )
 
 // Config is a basic type specifying certain configuration flags for running

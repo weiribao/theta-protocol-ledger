@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/ledger/vm/params"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/vm/params"
 )
 
 type twoOperandTest struct {

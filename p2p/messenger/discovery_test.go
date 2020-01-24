@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/crypto"
-	pr "github.com/thetatoken/theta/p2p/peer"
-	p2ptypes "github.com/thetatoken/theta/p2p/types"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	pr "github.com/thetatoken/theta-protocol-ledger/p2p/peer"
+	p2ptypes "github.com/thetatoken/theta-protocol-ledger/p2p/types"
 )
 
 func TestSeedPeerConnector(t *testing.T) {

@@ -5,22 +5,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thetatoken/theta/consensus"
-	"github.com/thetatoken/theta/rlp"
-	"github.com/thetatoken/theta/store/database/backend"
-	"github.com/thetatoken/theta/store/kvstore"
+	"github.com/thetatoken/theta-protocol-ledger/consensus"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/store/database/backend"
+	"github.com/thetatoken/theta-protocol-ledger/store/kvstore"
 
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/ledger"
+	"github.com/thetatoken/theta-protocol-ledger/core"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/ledger"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/dispatcher"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/dispatcher"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/p2p/simulation"
-	"github.com/thetatoken/theta/p2p/types"
+	"github.com/thetatoken/theta-protocol-ledger/blockchain"
+	"github.com/thetatoken/theta-protocol-ledger/p2p/simulation"
+	"github.com/thetatoken/theta-protocol-ledger/p2p/types"
 )
 
 type MockMessageConsumer struct {

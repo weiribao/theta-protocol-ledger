@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/thetatoken/theta/cmd/thetacli/cmd/utils"
-	"github.com/thetatoken/theta/wallet"
-	wtypes "github.com/thetatoken/theta/wallet/types"
+	"github.com/thetatoken/theta-protocol-ledger/cmd/thetacli/cmd/utils"
+	"github.com/thetatoken/theta-protocol-ledger/wallet"
+	wtypes "github.com/thetatoken/theta-protocol-ledger/wallet/types"
 )
 
 // listCmd lists all the stored keys

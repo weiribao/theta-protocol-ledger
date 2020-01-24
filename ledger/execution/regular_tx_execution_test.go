@@ -7,9 +7,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/result"
-	"github.com/thetatoken/theta/ledger/types"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/result"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
 )
 
 func TestGetInputs(t *testing.T) {

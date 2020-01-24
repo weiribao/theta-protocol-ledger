@@ -35,11 +35,11 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/crypto/ecies"
-	"github.com/thetatoken/theta/crypto/secp256k1"
-	"github.com/thetatoken/theta/crypto/sha3"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	"github.com/thetatoken/theta-protocol-ledger/crypto/ecies"
+	"github.com/thetatoken/theta-protocol-ledger/crypto/secp256k1"
+	"github.com/thetatoken/theta-protocol-ledger/crypto/sha3"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
 )
 
 const (

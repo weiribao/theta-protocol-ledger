@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra/doc"
-	theta "github.com/thetatoken/theta/cmd/theta/cmd"
-	thetacli "github.com/thetatoken/theta/cmd/thetacli/cmd"
+	theta "github.com/thetatoken/theta-protocol-ledger/cmd/theta/cmd"
+	thetacli "github.com/thetatoken/theta-protocol-ledger/cmd/thetacli/cmd"
 )
 
 func generateThetaCLIDoc(filePrepender, linkHandler func(string) string) {

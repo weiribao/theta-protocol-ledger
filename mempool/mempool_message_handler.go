@@ -6,10 +6,10 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/thetatoken/theta/common"
-	dp "github.com/thetatoken/theta/dispatcher"
-	"github.com/thetatoken/theta/p2p/types"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	dp "github.com/thetatoken/theta-protocol-ledger/dispatcher"
+	"github.com/thetatoken/theta-protocol-ledger/p2p/types"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
 )
 
 //

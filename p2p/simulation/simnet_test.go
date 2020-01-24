@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/common"
-	p2ptypes "github.com/thetatoken/theta/p2p/types"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	p2ptypes "github.com/thetatoken/theta-protocol-ledger/p2p/types"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
 )
 
 type SimMessageHandler struct {

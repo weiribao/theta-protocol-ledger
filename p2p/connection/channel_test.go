@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	p2ptypes "github.com/thetatoken/theta/p2p/types"
+	p2ptypes "github.com/thetatoken/theta-protocol-ledger/p2p/types"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/common"
+	"github.com/thetatoken/theta-protocol-ledger/common"
 )
 
 func TestDefaultChannelEnqueueShortMsg(t *testing.T) {

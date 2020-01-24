@@ -14,16 +14,16 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/util"
-	"github.com/thetatoken/theta/crypto"
-	p2ptypes "github.com/thetatoken/theta/p2p/types"
-	p2pcmn "github.com/thetatoken/theta/p2pl/common"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/util"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	p2ptypes "github.com/thetatoken/theta-protocol-ledger/p2p/types"
+	p2pcmn "github.com/thetatoken/theta-protocol-ledger/p2pl/common"
 
-	"github.com/thetatoken/theta/p2pl/peer"
+	"github.com/thetatoken/theta-protocol-ledger/p2pl/peer"
 
-	"github.com/thetatoken/theta/p2pl"
-	"github.com/thetatoken/theta/p2pl/transport"
+	"github.com/thetatoken/theta-protocol-ledger/p2pl"
+	"github.com/thetatoken/theta-protocol-ledger/p2pl/transport"
 
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-core/host"

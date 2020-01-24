@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/result"
-	"github.com/thetatoken/theta/store/database"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/result"
+	"github.com/thetatoken/theta-protocol-ledger/store/database"
 )
 
 //

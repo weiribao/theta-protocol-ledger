@@ -7,22 +7,22 @@ import (
 	"sync"
 
 	"github.com/spf13/viper"
-	"github.com/thetatoken/theta/store"
-	"github.com/thetatoken/theta/store/kvstore"
+	"github.com/thetatoken/theta-protocol-ledger/store"
+	"github.com/thetatoken/theta-protocol-ledger/store/kvstore"
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/result"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto"
-	exec "github.com/thetatoken/theta/ledger/execution"
-	"github.com/thetatoken/theta/ledger/state"
-	st "github.com/thetatoken/theta/ledger/state"
-	"github.com/thetatoken/theta/ledger/types"
-	mp "github.com/thetatoken/theta/mempool"
-	"github.com/thetatoken/theta/store/database"
+	"github.com/thetatoken/theta-protocol-ledger/blockchain"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/common/result"
+	"github.com/thetatoken/theta-protocol-ledger/core"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	exec "github.com/thetatoken/theta-protocol-ledger/ledger/execution"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/state"
+	st "github.com/thetatoken/theta-protocol-ledger/ledger/state"
+	"github.com/thetatoken/theta-protocol-ledger/ledger/types"
+	mp "github.com/thetatoken/theta-protocol-ledger/mempool"
+	"github.com/thetatoken/theta-protocol-ledger/store/database"
 )
 
 var logger *log.Entry = log.WithFields(log.Fields{"prefix": "ledger"})

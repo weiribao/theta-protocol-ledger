@@ -5,7 +5,7 @@ package backend
 // import (
 // 	"testing"
 
-// 	"github.com/thetatoken/theta/store/database"
+// 	"github.com/thetatoken/theta-protocol-ledger/store/database"
 // )
 
 // func newTestMDB() (*MongoDatabase, database.Batch, func()) {

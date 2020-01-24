@@ -1,7 +1,7 @@
 package store
 
 import (
-	"github.com/thetatoken/theta/common"
+	"github.com/thetatoken/theta-protocol-ledger/common"
 )
 
 // Store is the interface for key/value storages.

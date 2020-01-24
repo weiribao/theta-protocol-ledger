@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/spf13/viper"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/p2p/netutil"
-	pr "github.com/thetatoken/theta/p2p/peer"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/p2p/netutil"
+	pr "github.com/thetatoken/theta-protocol-ledger/p2p/peer"
 )
 
 const (

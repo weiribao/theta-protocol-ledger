@@ -9,8 +9,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
 )
 
 const SnapshotHeaderMagic = "ThetaToDaMoon"

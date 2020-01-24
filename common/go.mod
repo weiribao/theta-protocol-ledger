@@ -1,4 +1,4 @@
-module github.com/thetatoken/theta/common
+module github.com/thetatoken/theta-protocol-ledger/common
 
 require (
 	github.com/spf13/viper v1.5.0

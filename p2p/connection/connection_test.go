@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	p2ptypes "github.com/thetatoken/theta/p2p/types"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/thetatoken/theta-protocol-ledger/common"
+	"github.com/thetatoken/theta-protocol-ledger/crypto"
+	p2ptypes "github.com/thetatoken/theta-protocol-ledger/p2p/types"
+	"github.com/thetatoken/theta-protocol-ledger/rlp"
 )
 
 func TestNetconnBasics(t *testing.T) {
